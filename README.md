@@ -1,7 +1,13 @@
 # pytorch-LDRN
-Lightweight Dual-stream ResidualNetwork for Single ImageSuper-Resolution
+Title:Lightweight Dual-stream ResidualNetwork for Single ImageSuper-Resolution
+By Yichun Jiang, Yunqing Liu, Weida Zhang, Depeng Zhu
 
-Hello! This is my code for new algorithm called LDRN. This is proposed to solve the super-resolution problem. 
+School of Electronic Information Engineering,Changchun University of Science and Technology,Jilin 130022,China
+Changchun University of Science and Technology National Demonstration Center for Experimental Electrical, ChangChun, JiLin, 130022, China
+
+Dear experts, scholars and related practitioners:：
+
+This is our code for new algorithm called LDRN, which is proposed to solve the super-resolution problem. 
 
 We have given our model here, which can be used to verify our results.
 However, due to github restrictions, we saved the test datasets on OneDrive. You can download the test datasets from the following URL: 
