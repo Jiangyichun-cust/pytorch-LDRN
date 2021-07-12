@@ -16,4 +16,5 @@ https://1drv.ms/u/s!AsnHFFsP0cnXkDl82thlis6dXlLT?e=JTo3BC
 
 Unzip the datasets and copy them to the root directory. Then, you can run  test.py to generate super-resolution results.
 If you want to train our model by yourself, please download the training data set yourself and run main.py.
-All experiments were conducted using Pytorch1.7 on a NVIDIA RTX3090 GPU.
+
+All of our experiments were conducted using Pytorch1.7 on a NVIDIA RTX3090 GPU. 
