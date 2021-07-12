@@ -8,5 +8,5 @@ However, due to github restrictions, we saved the test datasets on OneDrive. You
 
 https://1drv.ms/u/s!AsnHFFsP0cnXkDl82thlis6dXlLT?e=JTo3BC
 
-Unzip the datasets and copy them to the root directory. Then run test.py to generate super-resolution results.
+Unzip the datasets and copy them to the root directory. Then, you can run main.py to train our proposed model.Finally, running test.py to generate super-resolution results.
 
