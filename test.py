@@ -15,12 +15,9 @@ def save_image_tensor(input_tensor: torch.Tensor, filename):
 
 def main():
     net = Generator()
-    # input = torch.randn(1, 3, 320, 180)
-    # macs, params = thop.profile(net.clone(), inputs=(input,))
-    # print('FLOPs/MAC=', macs / 1073741824, 'G params=', params / 1024, 'K')
     net.cuda()
     dirs = 'RESULT'
-    param = torch.load("./weight/last.pth")
+    param = torch.load("./weight/LDRN_16_64.pth")
     net.load_state_dict(param, True)
     num = [5, 14, 100, 100]
     dataset = ['set5', 'set14', 'B100', 'Urban100']
